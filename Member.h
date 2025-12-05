@@ -9,7 +9,7 @@ class Member {
         std::string memberId;
         int yearJoined;
     public:
-        Member() = default;
+        Member(): name("Unknown"), memberId("0000"), yearJoined(2025) {};
         Member(const std::string& name, const std::string& memberId, int yearJoined)
             : name(name), memberId(memberId), yearJoined(yearJoined) {}
         

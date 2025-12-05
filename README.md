@@ -51,7 +51,7 @@ g++ -std=c++17 -Wall -Wextra -O2 main.cpp -o main
 ## Примерен изход
 
 ```
-Member: , ID: , Joined: 1878049856
+Member: Unknown, ID: 0000, Joined: 2025
 
 Has book? 1
 Is book available? 1
