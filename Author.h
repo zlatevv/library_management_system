@@ -18,7 +18,7 @@ public:
     };
 
     std::string getName() const {return name;}
-    int getYear() const {return birthYear;}
+    int getBirthYear() const {return birthYear;}
 
     void setName(const std::string& name){
         if (name.empty()){
